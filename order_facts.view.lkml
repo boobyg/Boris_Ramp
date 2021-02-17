@@ -8,7 +8,6 @@ view: order_facts {
       from ECOMM.order_items
       group by 1,2
       order by 3 desc
-      limit 30
        ;;
   }
 
