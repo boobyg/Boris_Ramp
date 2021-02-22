@@ -17,7 +17,3 @@ explore: looker_data_dictionary {}
 explore: lookml_dependencies {}
 
 explore: measures_meta {}
-
-explore: planet_catalog {}
-
-explore: rashad_query_results {}
