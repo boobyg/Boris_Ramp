@@ -1,4 +1,4 @@
-connection: "snowflake"
+connection: "testco_ramp_testco"
 
 datagroup: boris_ramp_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;

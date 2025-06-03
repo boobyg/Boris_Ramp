@@ -1,4 +1,4 @@
-connection: "bigquery"
+connection: "testco_ramp_testco"
 
 # include all the views
 include: "/views/**/*.view"

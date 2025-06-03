@@ -10,6 +10,7 @@ view: order_facts {
       order by 3 desc
        ;;
   }
+#need primary key for measure to appear...
 
   measure: count {
     type: count
@@ -18,22 +19,22 @@ view: order_facts {
 
   dimension: order_id {
     type: number
-    sql: ${TABLE}."ORDER_ID" ;;
+    sql: ${TABLE}.ORDER_ID ;;
   }
 
   dimension: user_id {
     type: number
-    sql: ${TABLE}."USER_ID" ;;
+    sql: ${TABLE}.USER_ID ;;
   }
 
   dimension: order_item_count {
     type: number
-    sql: ${TABLE}."ORDER_ITEM_COUNT" ;;
+    sql: ${TABLE}.ORDER_ITEM_COUNT ;;
   }
 
   dimension: order_total {
     type: number
-    sql: ${TABLE}."ORDER_TOTAL" ;;
+    sql: ${TABLE}.ORDER_TOTAL ;;
   }
 
   set: detail {
